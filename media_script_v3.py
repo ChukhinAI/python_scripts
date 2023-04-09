@@ -37,7 +37,7 @@ with keyboard.Events() as events:
             double_click_checker = 0
 
         if str(event.key) == str(keyboard.KeyCode.from_vk(110)) and double_click_checker == 0:
-            Controller().press(KeyCode.from_vk(0xAE))  # Volume down Track key - working
+            Controller().press(KeyCode.from_vk(0xAE))  # Volume down key - working
             double_click_checker = 1
             # print('_______________________________________________________')
         elif str(event.key) == str(keyboard.KeyCode.from_vk(110)) and double_click_checker == 1:
